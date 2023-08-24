@@ -77,6 +77,7 @@ main {
 .img-icon {
     height: 18px;
     width: 17px;
+    object-fit: contain;
 }
 
 .btn>p {
