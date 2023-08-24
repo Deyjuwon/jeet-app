@@ -28,7 +28,11 @@
                     <p>Sign in with Apple</p>
                 </button>
                 <p class="or">or</p>
-                <input id="login-input" type="text" placeholder="phone, e-mail or username">
+                <form onsubmit="changeToHello(event)">
+                    <input id="username" class="login-input" type="text" placeholder="phone, e-mail or username">
+                </form>
+
+                <input class="login-input" id="h-password" type="text" placeholder="Password">
                 <button class="btn next">Next</button>
                 <button class="btn forgot-p">Forgot Password?</button>
                 <p>Dont have an account? <a href="">Sign up</a></p>
