@@ -222,6 +222,71 @@ footer>p {
 }
 
 
+/* Home page */
+.home1 {
+    width: 300px;
+    border: 1px solid red;
+    padding-top: 15px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: gray;
+
+}
+
+.home1>img {
+    width: 50px;
+    height: 50px;
+}
+
+.home-side>img {
+    height: 30px;
+    width: 30px;
+}
+
+.home-side>p {
+    font-size: 20px;
+
+}
+
+.home-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.home-side:hover {
+    background-color: gainsboro;
+    height: 50px;
+    width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.post-btn {
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    background-color: var(--mycolor);
+    color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+.active-home {
+    font-weight: 700;
+    color: #000;
+}
+
+
+
+
 
 /* ipad */
 @media (max-width:820px) {
