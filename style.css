@@ -188,6 +188,7 @@ footer>p {
     .right {
         flex: 1;
         padding-top: 3rem;
+        padding-left: 2rem;
     }
 }
 
