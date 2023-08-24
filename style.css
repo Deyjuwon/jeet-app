@@ -316,6 +316,17 @@ footer>p {
         width: 100%;
 
     }
+
+    #login-card {
+
+        margin-top: 0;
+        border: none;
+    }
+
+    .login {
+        background-color: #fff;
+
+    }
 }
 
 
