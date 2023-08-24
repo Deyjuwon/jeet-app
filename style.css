@@ -225,9 +225,10 @@ footer>p {
 /* Home page */
 .home1 {
     width: 300px;
-    border: 1px solid red;
+
     padding-top: 15px;
     padding-left: 60px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -257,7 +258,7 @@ footer>p {
 }
 
 
-.home-side:hover {
+/* .home-side:hover {
     background-color: gainsboro;
     height: 50px;
     width: fit-content;
@@ -265,7 +266,7 @@ footer>p {
     padding-right: 8px;
     border-radius: 100px;
     cursor: pointer;
-}
+} */
 
 .post-btn {
     width: 200px;
@@ -284,6 +285,33 @@ footer>p {
     color: #000;
 }
 
+.home-profile>img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.home-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profile-p>p:nth-child(1) {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.profile-p>p:nth-child(2) {
+    font-size: 18px;
+}
 
 
 
