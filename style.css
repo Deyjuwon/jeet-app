@@ -306,6 +306,12 @@ footer>p {
     footer>p {
         padding-bottom: 20px;
     }
+
+    /* login */
+    #login-card {
+        width: 100%;
+
+    }
 }
 
 
