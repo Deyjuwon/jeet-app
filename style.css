@@ -1,0 +1,216 @@
+:root {
+    --mycolor: #0bde66;
+    --seccolor: #07ab4e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.all-container {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: var(--mycolor);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+
+}
+
+.left {
+    flex: 1;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.right {
+    flex: 1;
+    padding-top: 5rem;
+}
+
+.btn {
+    padding: 12px;
+    width: 300px;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    transform: 0.2s;
+}
+
+.img-icon {
+    height: 18px;
+    width: 17px;
+}
+
+.btn>p {
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: var(--mycolor);
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn2 {
+    background-color: var(--mycolor);
+    color: #fff;
+}
+
+#btn2:hover {
+    background-color: var(--seccolor);
+}
+
+.middle-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.or {
+    padding-left: 150px;
+    font-weight: 700;
+
+}
+
+.p-large {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+ul li a {
+    color: black;
+    font-size: 12px;
+}
+
+ul li a:hover {
+    color: var(--mycolor);
+    text-decoration: underline;
+}
+
+footer>p {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    color: gray;
+}
+
+.logo-img {
+    width: 300px;
+    height: 270px;
+}
+
+
+
+/* ipad */
+@media (max-width:820px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-img {
+        width: 100px;
+        height: 100px;
+    }
+
+
+}
+
+
+/* iphone */
+@media (max-width:477px) {
+    .logo-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .right {
+        flex: 1;
+        padding-top: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .login-card {
+    height: 70vh;
+    width: 430px;
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    left: 500px;
+} */
